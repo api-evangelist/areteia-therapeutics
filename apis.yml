@@ -1,8 +1,23 @@
 aid: areteia-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/areteia-therapeutics.png
 name: Areteia Therapeutics
-description: 'Areteia Therapeutics is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Areteia Therapeutics was a clinical-stage biotechnology company, formerly based in Chapel
+  Hill, North Carolina, operating in the life-sciences sector. As of the July 2026 enrichment pass the
+  company is no longer operating: areteiatx.com serves only a closure notice directing asset and general
+  inquiries to contact addresses, and the company publishes no developer portal, API, documentation, SDKs,
+  or other technical developer surface. Surfaced as a portfolio company of gv (Google Ventures) and added
+  to the API Evangelist network as a stub; retained for network completeness with no API artifacts to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/areteia-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Pharmaceuticals
+- Clinical Stage
+- GV Portfolio
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/areteia-therapeutics-domain-security.yml
 - type: Website
   url: https://areteiatx.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
