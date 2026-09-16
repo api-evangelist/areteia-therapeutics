@@ -28,7 +28,8 @@ description: 'Areteia Therapeutics was a clinical-stage biotechnology company, f
   company is no longer operating: areteiatx.com serves only a closure notice directing asset and general
   inquiries to contact addresses, and the company publishes no developer portal, API, documentation, SDKs,
   or other technical developer surface. Surfaced as a portfolio company of gv (Google Ventures) and added
-  to the API Evangelist network as a stub; retained for network completeness with no API artifacts to enrich.'
+  to the API Evangelist network as a stub; retained for network completeness with no API artifacts to
+  enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/areteia-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -38,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-09-15'
 tags:
 - Company
 - Life Sciences
@@ -63,3 +64,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-status: defunct
